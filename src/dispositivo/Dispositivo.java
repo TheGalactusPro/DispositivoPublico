@@ -6,8 +6,7 @@ public class Dispositivo {
     public boolean activo;
 
     public void mostrarInformacion() {
-        System.out.println("Nombre: " + nombre
-                + "\nTipo: " + tipo);
+        System.out.println("Nombre: " +nombre+ "\nTipo: " +tipo);
     }
 
     void mostrarEstado() {
